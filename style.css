@@ -1,11 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;300;500&family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cover{
+    background-color: #2C3333;
+    height: 90vh;
+}
+.cover ul li{
+    color: aliceblue;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.cover ul{
+    list-style: none;
+    padding-top: 60px; 
+    display: flex;
+    justify-content: center;
+}
+
+.intro{
+    color: aliceblue;
+    margin-top: 70px;
+    padding-top: 70px;
+    text-align: center;
+    
+}
+
+    
+
+.intro h1{
+    letter-spacing: 5px;
+    font-size: xxx-large;
+}
+.intro h4{
+    letter-spacing: 2px;
+    font-weight: 200;
+}
 
 
+/* about */
+
+.profile{
+    display: flex;
+}
+
+#aboutme{
+    padding: 40px 80px 40px;
+    background-color:#CBE4DE;
+    box-sizing: border-box;
+}
+.title{
+    box-sizing: border-box;
+    font-weight: 600;
+    padding-right:10px ;
+}
+
+.about{
+    background-color:white;
+    
+    padding: 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+}
+div img{
+    height: 200px;
+    padding: 20px;
+    
+   
+}
+.bio
+{
+    padding: 20px;
+    line-height: 2;
+    word-spacing: 2px;
+}
+div h3{
+    padding: 0px 0px 20px 20px;
+    font-weight: 600;
+}
+#skills p{
+    padding: 0px 0px 0px 20px;
+    line-height: 2;
+}
+#skills{
+    padding-bottom: 30px;
+}
+.aboutme h3,p {
+    padding: 20px 20px 0px;
+    display: flex;
+    justify-content: row;
+}
 
 
+/* projects */
 
 
+#projects{
+    
+    background-color: #0E8388;
+    padding: 40px 80px 40px;
+}
 
-
+.project-1 img{
+    height: 200px;
+    width: 300px;
+}
+.projects{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.project-info {
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: #CBE4DE;
+    
+}
+.project-info h3{
+    padding-top: 0px;
+    margin-top: 0px;
+}
 
 
 
