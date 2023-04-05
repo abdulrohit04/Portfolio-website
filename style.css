@@ -4,19 +4,62 @@
     padding: 0;
     font-family: 'Josefin Slab', serif;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #CBE4DE;
 }
 
-.cover{
-    background-color: #2C3333;
+
+h1 {
+    color:  #CBE4DE;
+    
+  }
+  
+  h2 {
+    color:  #CBE4DE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 20px;
+  }
+  
+  h4 {
+    color:  #CBE4DE;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    font-size: x-large;
+  }
+  
+  p {
+    line-height: 2;
+    letter-spacing: 1px;
+
+   
+  }
+  
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto 0px;
+    
+    
+  }
+
+
+
+
+.container-1{
+    background-color: #2D6155;
     height: 90vh;
 }
-.cover ul li{
-    color: aliceblue;
+.container-1 ul li{
+    color: #CBE4DE;;
     letter-spacing: 2px;
     padding: 15px;
 }
 
-.cover ul{
+.container-1 ul{
     list-style: none;
     padding-top: 60px; 
     display: flex;
@@ -24,7 +67,7 @@
 }
 
 .intro{
-    color: aliceblue;
+    color:  #CBE4DE;;
     margin-top: 70px;
     padding-top: 70px;
     text-align: center;
@@ -45,90 +88,52 @@
 
 /* about */
 
-.profile{
-    display: flex;
+.container-2{
+    background-color: #2E4F4F;
+    padding-bottom: 20px;
+    
 }
 
-#aboutme{
-    padding: 40px 80px 40px;
-    background-color:#CBE4DE;
-    box-sizing: border-box;
+.skill-row{
+    width: 60%;
+    margin: 100px auto 100px;
+    
 }
-.title{
-    box-sizing: border-box;
-    font-weight: 600;
-    padding-right:10px ;
+.skill-row p,h4{
+    text-align: left;
+}
+.code-img{
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin-right: 30px;
+}
+.profile img{
+    width: 180px;
+    height: 180px;
+    padding: 40px;
+}
+.bio{
+    width: 30%;
+    margin: auto;
 }
 
-.about{
-    background-color:white;
+/* skills */
+
+.container-3{
+    background-color: #0E8388;
+    padding-bottom: 20px;
     
-    padding: 30px 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    
-    box-sizing: border-box;
-}
-div img{
-    height: 200px;
-    padding: 20px;
-    
-   
-}
-.bio
-{
-    padding: 20px;
-    line-height: 2;
-    word-spacing: 2px;
-}
-div h3{
-    padding: 0px 0px 20px 20px;
-    font-weight: 600;
-}
-#skills p{
-    padding: 0px 0px 0px 20px;
-    line-height: 2;
-}
-#skills{
-    padding-bottom: 30px;
-}
-.aboutme h3,p {
-    padding: 20px 20px 0px;
-    display: flex;
-    justify-content: row;
 }
 
 
 /* projects */
 
 
-#projects{
-    
-    background-color: #0E8388;
-    padding: 40px 80px 40px;
-}
-
-.project-1 img{
+.container-4{
+    background-color:#2D6155;
     height: 200px;
-    width: 300px;
 }
-.projects{
-    
-    display: flex;
-    justify-content: space-between;
-}
-.project-info {
-    padding-top: 0px;
-    margin-top: 0px;
-    background-color: #CBE4DE;
-    
-}
-.project-info h3{
-    padding-top: 0px;
-    margin-top: 0px;
-}
-
-
 
 
 
