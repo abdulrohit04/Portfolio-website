@@ -129,12 +129,90 @@ h1 {
 
 /* projects */
 
-
-.container-4{
-    background-color:#2D6155;
-    height: 200px;
+.project-row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    margin:100px auto 100px;
 }
 
 
 
+.container-4{
+    background-color:#2D6155;
+    padding-bottom: 20px;
+}
+
+.project-img{
+    width: 20%;
+    height: 120px;
+    
+    margin-right: 30px;
+}
+.project-row p,h4{
+    text-align: left;
+}
+.project-img{
+    width:300px;
+    height: 300px;
+}
+
+/* resume */
+.container-5{
+    background-color:#238770;
+    padding-bottom: 20px;
+    
+}
+.container-5 img{
+    padding-top: 30px;
+    height: 1000px;
+    width: auto;
+}
+
+/* get in touch */
+
+.container-6{
+    background-color: #CBEDD5;
+    padding-bottom: 20px;
+}
+.contactme{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    margin:50px auto 50px;
+        
+}
+form{
+    text-align: left;
+    padding: 20px;
+    
+}
+input, textarea{
+    width: 600px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    
+}   
+
+.contact-msg{
+    color: #1e1e1e;
+    padding-top: 25px;
+    
+}
+
+.inner-block1{
+    padding: 20px;
+}
+.inner-block1 p{
+    text-align: left;
+    color: #1e1e1e;
+    
+}
+address{
+    padding: 15px 0 15px;
+}
 
