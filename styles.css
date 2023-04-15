@@ -30,9 +30,9 @@ p {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #80c5c5 6px;
   border-bottom: none;
-  width: 4%;
+  width: 20%;
   margin: 100px auto;
 }
 
@@ -47,10 +47,19 @@ a:hover {
   color: #EAF6F6;
 }
 
+.title-text{
+  padding-bottom: 200px;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
   padding-top: 100px;
+}
+
+.profile img{
+  width: 180px;
+  height: 180px;
 }
 
 .middle-container {
@@ -63,7 +72,7 @@ a:hover {
 }
 
 .skill-row {
-  width: 50%;
+  width: 65%;
   margin: 100px auto 100px auto;
   text-align: left;
 }
@@ -73,7 +82,7 @@ a:hover {
 }
 
 .intro {
-  width: 30%;
+  width: 65%;
   margin: auto;
 }
 
@@ -88,26 +97,18 @@ a:hover {
   padding: 20px 0;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
 
 .code-img {
   width: 25%;
+  height: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .chilli-img {
   width: 25%;
+  height: auto;
   float: right;
   margin-left: 30px;
 }
